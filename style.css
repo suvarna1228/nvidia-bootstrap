@@ -4,6 +4,9 @@
     font-family: "poppins",sans-serif;
     box-sizing: border-box;
 }
+.home .small-heading{
+   font-size: 18px;
+}
  .line{
     margin-top: 6rem;
     margin-left: 1rem;
@@ -35,9 +38,6 @@
 .each-section{
 display: flex;
 }
-.navigation{
-   width: 100%;
-}
 .top {
    background-color: black;
 }
@@ -61,4 +61,8 @@ hr{
 }
 .icon-enveelop{
    color: #91c733;
+}
+.all-box h2{
+   font-weight: 700;
+   line-height: 1.25em;
 }
