@@ -4,8 +4,16 @@
     font-family: "poppins",sans-serif;
     box-sizing: border-box;
 }
+.seaporator{
+   height: 60px;
+   width: 50px;
+}
 .home .small-heading{
    font-size: 18px;
+}
+.home p{
+   font-size: 22px;
+   line-height: 1.75em;
 }
  .line{
     margin-top: 6rem;
@@ -23,12 +31,18 @@
     margin-left: 1rem; 
     width: 25%;
  }
+ .text small{
+   font-size: 11px;
+   font-weight: 700;
+ }
  .text-container{
     display: flex;
  }
  .button-read{
     background-color: #91c733;
     color: black;
+    font-size: 14px;
+    padding: 9px 9pt;
  }
 .quick-link{
     text-decoration: none;
@@ -41,12 +55,38 @@ display: flex;
 .top {
    background-color: black;
 }
+.top h2{
+   font-size: 24px;
+}
+.top small{
+   font-size: 15px;
+}
+.sign{
+   font-size: 18px;
+   line-height: 1;
+}
 
 .button-sub{
-   color: black;
+  
    background-color: #91c733;
-   width: 5rem;
-   height: 2rem;
+/* 
+   font-size: 18px;
+   line-height: 1.25em;
+   padding: 9px 9pt;
+   font-weight: 700;
+   text-align: center;
+   cursor: pointer; */
+   border: none;
+   color: #000;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 1.25em;
+   min-width: 50px;
+   padding: 13px 15px;
+   text-align: center;
+   height: 2.5rem;
+   margin-left: 1rem;
 }
 hr{
    color: white;
@@ -61,6 +101,9 @@ hr{
 }
 .icon-enveelop{
    color: #91c733;
+   width: 50px;
+   height: 50px;
+   float: left;
 }
 .all-box h2{
    font-weight: 700;
